@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio Website Html Css only</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Harsh Jha</a>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#projects">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="home">
+    <div class="home-content">
+      <h1>Hi, I'm Harsh </h1>
+      <h3>About Me</h3>
+      <p>Beginner programmer skilled in Python, HTML, and CSS, with a passion for Data Science and AI/ML. Currently
+        learning data analysis and machine learning to build impactful projects.</p>
+      <div class="btn-box">
+        <a href="#">Learner</a>
+        <a href="https://wa.me/9341440579" target="_blank" rel="noopener noreferrer">Let's Talk</a>
+      </div>
+    </div>
+
+    <div class="home-img">
+      <img src="harsh....jpg" alt="Harsh Jha">
+    </div>
+
+    <div class="home-sci">
+      <a href="https://x.com/HarshJha1232988?t=twsuZp-frKqrR1FOfIsdYw&s=08" target="_blank">
+        <i class='bx bxl-twitter'></i>
+      </a>
+      <a href="https://github.com/harshjha20" target="_blank">
+        <i class='bx bxl-github'></i>
+      </a>
+      <a href="mailto:hjha1925@gmail.com" target="_blank">
+        <i class='bx bxl-gmail'></i>
+      </a>
+      <a href="https://www.linkedin.com/in/harsh-jha-126947325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        <i class='bx bxl-linkedin'></i>
+      </a>
+    </div>
+  </section>
+  <section id="projects" class="section projects">
+  <h2>My Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Resume Parser</h3>
+      <p>Built with Python🤖</p>
+      <a href="locker.bat" target="_blank">View Code</a>
+    </div>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Responsive HTML & CSS 🌐</p>
+      <a href="https://your-portfolio.vercel.app" target="_blank">Live Demo</a>
+    </div>
+    <div class="project-card">
+      <h3>Translator</h3>
+      <p>Built With Python🤖</p>
+      <a href="#This is a translation program usin.txt" target="_blank">View Code</a>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <h2 class="contact-title">Contact Me</h2>
+  <form class="contact-form" action="mailto:hjha1925@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="thankYouMessage" style="display: none; color: #00ffae; margin-top: 20px; font-size: 18px;">Thanks! Your message has been sent.</p>
+
+</section>
+
+
+</body>
+
+</html>

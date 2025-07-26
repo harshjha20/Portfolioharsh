@@ -1,0 +1,15 @@
+#This is a translation program using googletrans library
+# Purpose: To translate text into any language in real-time
+
+from googletrans import Translator
+
+translator = Translator()
+
+text = input("Enter text for translation:")
+lang = input("Which language do you want? (eg., 'hi' for Hindi, 'fr' for french)")
+
+try:
+    translated = translator.translate(text,dest=lang)
+    print(f"Translated text:{translated.text}")
+except Exception as e:
+    print(f"Error:{e}")
